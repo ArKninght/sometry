@@ -1,0 +1,13 @@
+CTProjCUDA.cpp
+CTProjCUDA_kernel.cu
+setup.py
+CTReconProj.egg-info/PKG-INFO
+CTReconProj.egg-info/PKG-INFO:Zone.Identifier
+CTReconProj.egg-info/SOURCES.txt
+CTReconProj.egg-info/SOURCES.txt:Zone.Identifier
+CTReconProj.egg-info/dependency_links.txt
+CTReconProj.egg-info/dependency_links.txt:Zone.Identifier
+CTReconProj.egg-info/not-zip-safe
+CTReconProj.egg-info/not-zip-safe:Zone.Identifier
+CTReconProj.egg-info/top_level.txt
+CTReconProj.egg-info/top_level.txt:Zone.Identifier

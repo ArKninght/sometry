@@ -1,0 +1,8 @@
+CTfdkCUDA.cpp
+FDK_kernel.cu
+setup.py
+CTFDKReconProj.egg-info/PKG-INFO
+CTFDKReconProj.egg-info/SOURCES.txt
+CTFDKReconProj.egg-info/dependency_links.txt
+CTFDKReconProj.egg-info/not-zip-safe
+CTFDKReconProj.egg-info/top_level.txt
