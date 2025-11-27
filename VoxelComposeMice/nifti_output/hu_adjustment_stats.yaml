@@ -1,0 +1,39 @@
+original_range:
+  min: 0.0
+  max: 6833.0
+  mean: 777.5079345703125
+  std: 710.4021606445312
+adjusted_range:
+  min: -500.0
+  max: 11833.0
+  mean: 2898.794677734375
+  std: 3382.463134765625
+adjustment_params:
+  high_threshold: 1000.0
+  high_boost: 5000.0
+  low_reduce: 500.0
+voxel_counts:
+  high_voxels: 146076228
+  low_voxels: 160422341
+  total_voxels: 306498569
+roi_coordinates:
+  x:
+    min: 103
+    max: 615
+    size: 512
+  y:
+    min: 23
+    max: 535
+    size: 512
+  z:
+    min: 132
+    max: 388
+    size: 256
+original_volume_shape:
+  z: 521
+  y: 767
+  x: 767
+cropped_volume_shape:
+  z: 256
+  y: 512
+  x: 512

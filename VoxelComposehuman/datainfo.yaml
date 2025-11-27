@@ -1,0 +1,58 @@
+# CT数据组合配置文件
+# 用于指定如何将分开的.raw文件重新组合
+
+# 输入配置
+input:
+  # 输入目录 - 包含分开的.raw文件的目录
+  folder: "./split_output"
+  
+  # 文件夹结构类型
+  # "frames" - 按帧分文件夹 (image_1, image_2, ...)
+  # "files" - 所有文件在同一目录
+  structure: "frames"
+  
+  # 帧数 - 需要组合的帧数
+  num_frames: 10
+  
+  # 文件名模式 (支持通配符)
+  # 例如: "*.raw", "*_frame_*.raw"
+  file_pattern: "*_frame_*.raw"
+
+# 输出配置
+output:
+  # 输出目录
+  folder: "./composed_output"
+  
+  # 输出文件名前缀
+  prefix: "composed"
+  
+  # 是否覆盖已存在的文件
+  overwrite: false
+
+# 数据参数
+data:
+  # 数据类型: uint8, uint16, float32, float64
+  dtype: "uint16"
+  
+  # 体块尺寸 (宽×高×深)
+  width: 256
+  height: 256
+  depth: 64
+  
+  # 字节序: "little" 或 "big"
+  byteorder: "little"
+
+# 组合选项
+compose:
+  # 组合模式
+  # "sequential" - 按顺序组合所有帧到单个文件
+  # "separate" - 每组帧生成独立文件
+  mode: "sequential"
+  
+  # 排序方式
+  # "name" - 按文件名排序
+  # "time" - 按修改时间排序
+  sort_by: "name"
+  
+  # 是否反转排序
+  reverse: false
